@@ -1,6 +1,12 @@
 source 'https://rubygems.org'
 
 
+# Load current ruby version
+ruby '2.0.0'
+
+# Use rails_12factor to enable all heroku platform features
+gem 'rails_12factor'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.0'
 # Use postgre as the database for Active Record
