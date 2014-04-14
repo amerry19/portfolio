@@ -12,7 +12,7 @@ gem 'rails', '4.1.0'
 # Use postgre, thin, and sqlite3 as the database for Active Record
 gem 'pg'
 gem 'thin'
-#gem 'sqlite3'
+gem 'sqlite3'
 
 group :assets do
 # Use SCSS for stylesheets

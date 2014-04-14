@@ -1019,7 +1019,7 @@ header.jumbotron{
 #twitter-slider{
     border:none;
     box-shadow:none;
-    background:transparent;
+    background:#000;
     margin:0;
     padding:0;
 }
