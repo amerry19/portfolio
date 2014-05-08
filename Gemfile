@@ -15,7 +15,7 @@ group :production do
 end
 
 gem 'thin'
-#gem 'sqlite3'
+gem 'sqlite3'
 
 group :assets do
 	# Use SCSS for stylesheets
@@ -52,3 +52,4 @@ gem 'spring',        group: :development
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+gem 'sprockets_better_errors'
