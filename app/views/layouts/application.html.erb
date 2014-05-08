@@ -44,7 +44,7 @@
 			<script src="js/respond.min.js"></script>
 		<![endif]-->
 		
-		<script type="text/javascript" src="js/libs/modernizr.min.js"></script>
+		<script type="text/javascript" src="assets/libs/modernizr.min.js"></script>
 		
 		
 	</head>
@@ -65,7 +65,6 @@
 					
 					<!-- ======= LOGO ========-->
 					<a class="navbar-brand scrollto" href="#home">ADAM MERRY<br><span>Web Developer</span></a>
-					<!-- <a class="navbar-brand scrollto ir-logo" href="#">JOHN DOE<br><span>UI Designer</span></a> -->
 				
 				</div>
 				
@@ -75,13 +74,13 @@
 							<a href="#home" class="scrollto">Home</a>
 						</li>
 						<li>
-							<a href="#services" class="scrollto">What I do</a>
+							<a href="#services" class="scrollto">Blog</a>
 						</li>
 						<li>
 							<a href="#about" class="scrollto">About Me</a>
 						</li>
 						<li>
-							<a href="#portfolio" class="scrollto">My Works</a>
+							<a href="#portfolio" class="scrollto">Projects</a>
 						</li>
 						<li>
 							<a href="#contact" class="scrollto">Contact Me</a>
@@ -109,12 +108,14 @@
 					<div class="right-col flexslider home-slider">
 					
 						<ul class="slides">
+
+							<li><p>Developer</p></li>
 						
 							<li><p>Designer</p></li>
 							
-							<li><p>Developer</p></li>
-							
 							<li><p>Expert</p></li>
+
+							<li><p>Enthusiast</p></li>
 							
 						</ul>
 						
@@ -127,22 +128,35 @@
 		</header><!--End header -->
 
 		<!-- ==============================================
-		SERVICES
+		Blog
 		=============================================== -->
 		<section id="services">
 		
 			<div class="container">
 			
-				<h1 class="section-title scrollimation scale-in">The <span>Services</span> I offer<i class="icon-wrench"></i></h1>
+				<h1 class="section-title scrollimation scale-in">The <span>Blog</span><i class="icon-wrench"></i></h1>
 				
 				<div class="row services scrollimation fade-left">
 					<div class="col-md-3 text-center">
-						<a href="#fakelink" class="icon"><i class="icon-flag"></i></a>
-						<h2>Branding</h2>
+						<a href="http://facebook.com" class="icon"><i> <img src="/assets/prof-pic.jpg" class="img img-circle" style="height:140px; width:140px; position: absolute; left: 0px"></i></a>
+						<h2>Post1</h2>
 					</div>
 					<div class="col-md-3 details">
-						<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo.Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo.</p>
+						<p>So, you are interested in reading my first post...click here to read more.</p>
 					</div>
+					<!-- EXPERIMENTING WITH BLOG INTEGRATION -->
+
+					
+					<!--	
+					<div class="sr-only project-description">
+							<p>This project entailed creating a responsive blog. It is built with rails using a RESTful api and was deployed through heroku. It features commenting on posts functionality and currently uses basic HTTP authentication for admin privilage validation.</p>
+							<img class="img-responsive img-center" src="assets/projects/company-logo.png"  alt="">
+							<p>I also designed a custom jQuery slideshow plugin for the homepage. This plugin employs mostly CSS3 transitions and was intended to be ultra lightweight to improve the mobile viewing experience. It supports multiple media types and can be implemented simply by wrapping it within a div, which makes it highly reusable and convenient.</p>
+							<p>Nam eget urna pellentesque nisl ultrices dapibus. Mauris accumsan vehicula nisl, sed tempus mauris facilisis eu. Donec a iaculis nisi, quis malesuada justo. Pellentesque ut enim sit amet ipsum dignissim egestas. Morbi tincidunt rhoncus urna eget placerat.</p>
+					</div>
+					-->
+					<!-- EXPERIMENTING WITH BLOG INTEGRATION -->
+
 					<div class="col-md-3 text-center">
 						<a href="#fakelink" class="icon"><i class="icon-code"></i></a>
 						<h2>Development</h2>
@@ -192,9 +206,9 @@
 						<img class="img-responsive img-circle img-center" src="assets/prof-pic.jpg" alt="">
 					</div>
 					<div class="col-sm-6 col-sm-offset-1 scrollimation fade-left">
-						<h1>Hello, I am Adam Merry...</h1>
-						<p>I'm a user interface designer living in <a href="#linktomaps">Monterey, California</a>. I have worked with companies like <a href="#somelink">This Company</a> and <a href="#somelink">That Company</a> and currently working as a lead designer at <a href="#somelink">MyCompany.com</a>.<br/>Creating is not just a job for me, it's a passion. </p>
-						<a href="#portfolio" class="btn btn-theme transparent scrollto">View my Works</a>
+						<h1>Hi, I am Adam Merry...</h1>
+						<p>I'm a web developer living in <a href="https://www.google.com/maps/place/Monterey,+CA/@36.6022344,-121.9286104,13z/data=!4m2!3m1!1s0x808de45270b5fb91:0xee484909d84a3d5e" target="blank">Monterey, CA</a>. I have volunteered at the <a href="http://www.montereybayaquarium.org/" target="blank">Monterey Bay Aquarium</a> and interned at the <a href="http://www.nps.edu/" target="blank">Naval Postgraduate School</a> as a web app developer and will be attending <a href="http://codinghouse.co/" target="blank">Coding House</a> in San Francisco beginning in June, 2014.<br/>I love creating UI that are immediately understandable and relateable through perfected UX.</p>
+						<a href="#portfolio" class="btn btn-theme transparent scrollto">View my Projects</a>
 					</div>
 				</div><!--End row -->
 				
@@ -212,22 +226,31 @@
 				<div class="row skills">
 
 					<div class="col-sm-6 col-md-3 text-center">
-						<span class="chart" data-percent="60"><span class="percent">60</span></span>
-						<h2 class="text-center">Web Design</h2>
-					</div>
-					<div class="col-sm-6 col-md-3 text-center">
 						<span class="chart" data-percent="50"><span class="percent">50</span></span>
-						<h2 class="text-center">HTML / CSS</h2>
-					</div>
-					<div class="col-sm-6 col-md-3 text-center">
-						<span class="chart" data-percent="60"><span class="percent">60</span></span>
-						<h2 class="text-center">Ruby / Rails</h2>
+						<h2 class="text-center">HTML / CSS /</h2>
 					</div>
 					<div class="col-sm-6 col-md-3 text-center">
 						<span class="chart" data-percent="40"><span class="percent">40</span></span>
+						<h2 class="text-center">Javascript / jQuery</h2>
+					</div>
+					<div class="col-sm-6 col-md-3 text-center">
+						<span class="chart" data-percent="50"><span class="percent">50</span></span>
+						<h2 class="text-center">Ruby / Rails</h2>
+					</div>
+					<div class="col-sm-6 col-md-3 text-center">
+						<span class="chart" data-percent="50"><span class="percent">50</span></span>
 						<h2 class="text-center">UI / UX</h2>
 					</div>
-					
+					<!--
+					<div class="col-sm-6 col-md-3 text-center">
+						<span class="chart" data-percent="20"><span class="percent">20</span></span>
+						<h2 class="text-center">Node / Express</h2>
+					</div>
+					<div class="col-sm-6 col-md-3 text-center">
+						<span class="chart" data-percent="20"><span class="percent">20</span></span>
+						<h2 class="text-center">Mongo / Mongoose</h2>
+					</div>
+					-->
 				</div><!--End row -->
 				
 			</div><!--End container -->
@@ -241,7 +264,7 @@
 		
 			<div id="portfolio-header" class="text-center">
 				
-				<h1 class="section-title scrollimation scale-in">The <span>works</span> I am proud of<i class="icon-pencil"></i></h1>
+				<h1 class="section-title scrollimation scale-in">The <span>projects</span> I am proud of<i class="icon-pencil"></i></h1>
 				
 				<!--==== Portfolio Filters ====-->
 				<div id="filter-works">
@@ -270,21 +293,21 @@
 					<!-- ==============================================
 					SINGLE PROJECT ITEM
 					=============================================== -->	
-					<a class="project-item web-design" href="http://www.google.com" data-images="assets/projects/project-slide.jpg, assets/projects/project-slide.jpg">
+					<a class="project-item web-design" href="http://julianne.herokuapp.com" data-images="assets/homepage.png, assets/post.png">
 						
-						<img class="img-responsive project-image" src="assets/projects/project-thumb.jpg"  alt=""><!--Project thumb -->
+						<img class="img-responsive project-image" src="assets/homepage.png" alt=""><!--Project thumb -->
 						
 						<div class="hover-mask">
-							<h2 class="project-title">Project 1</h2><!--Project Title -->
-							<p>google.com</p><!--Project Subtitle -->
+							<h2 class="project-title">Rails Blog</h2><!--Project Title -->
+							<p>julianne.herokuapp.com</p><!--Project Subtitle -->
 						</div>
 						
 						<!--==== Project Preview HTML ====-->
 						
 						<div class="sr-only project-description">
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sapien risus, blandit at fringilla ac, varius sed dolor. Donec augue lacus, vulputate sed consectetur facilisis, interdum pharetra ligula. Nulla suscipit erat nibh, ut porttitor nisl dapibus eu.</p>
+							<p>This project entailed creating a responsive blog. It is built with rails using a RESTful api and was deployed through heroku. It features commenting on posts functionality and currently uses basic HTTP authentication for admin privilage validation.</p>
 							<img class="img-responsive img-center" src="assets/projects/company-logo.png"  alt="">
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sapien risus, blandit at fringilla ac, varius sed dolor. Donec augue lacus, vulputate sed consectetur facilisis, interdum pharetra ligula. Nulla suscipit erat nibh, ut porttitor nisl dapibus eu.</p>
+							<p>I also designed a custom jQuery slideshow plugin for the homepage. This plugin employs mostly CSS3 transitions and was intended to be ultra lightweight to improve the mobile viewing experience. It supports multiple media types and can be implemented simply by wrapping it within a div, which makes it highly reusable and convenient.</p>
 							<p>Nam eget urna pellentesque nisl ultrices dapibus. Mauris accumsan vehicula nisl, sed tempus mauris facilisis eu. Donec a iaculis nisi, quis malesuada justo. Pellentesque ut enim sit amet ipsum dignissim egestas. Morbi tincidunt rhoncus urna eget placerat.</p>
 						</div>
 						
@@ -506,7 +529,7 @@
 						<i class="icon-twitter"></i>
 					</div>
 					<div class="col-sm-11">
-						<div id="twitter-slider" class="flexslider" data-widget-id="345690956013633536" data-tweets-length="5">
+						<div id="twitter-slider" class="flexslider" data-widget-id="463824939556929537" data-tweets-length="5">
 						
 						</div>
 					</div>
@@ -608,7 +631,7 @@
 					
 					<div class="col-sm-6 right-col">
 						<h2>Who Am I?</h2>
-						<p>I am an enthusiast who enjoys online digital and offline world. I build high quality websites using html5, css3, jquery and rails. Donec augue lacus, vulputate sed consectetur facilisis, interdum pharetra ligula.</p>
+						<p>I am an enthusiast who enjoys online digital and offline world. I build high quality websites using html5, css3, javascript and rails. I am also a fingerstyle guitarist and a lover Japanese culture and history.</p>
 					</div>
 					
 				</div><!-- End row -->
@@ -623,16 +646,16 @@
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 		<script>window.jQuery || document.write('<script src="js/libs/jquery-1.8.2.min.js">\x3C/script>')</script>
 		
-		<script src="js/libs/bootstrap.min.js"></script>
-		<script src='js/jquery.scrollto.js'></script>
-		<script src='js/jquery.flexslider.min.js'></script>
-		<script src='js/twitterFetcher_v10_min.js'></script>
-		<script src='js/jquery.masonry.min.js'></script>
-		<script src="js/waypoints.min.js"></script>
-		<script src="js/jquery.easypiechart.js"></script>
-		<script src="js/jquery.backstretch.min.js"></script>
-		<script src="js/contact.js"></script>
-		<script src="js/designr.js"></script>
+		<script src="assets/libs/bootstrap.min.js"></script>
+		<script src='assets/jquery.scrollto.js'></script>
+		<script src='assets/jquery.flexslider.min.js'></script>
+		<script src='assets/twitterFetcher_v10_min.js'></script>
+		<script src='assets/jquery.masonry.min.js'></script>
+		<script src="assets/waypoints.min.js"></script>
+		<script src="assets/jquery.easypiechart.js"></script>
+		<script src="assets/jquery.backstretch.min.js"></script>
+		<script src="assets/contact.js"></script>
+		<script src="assets/designr.js"></script>
 		
 	</body>
 	

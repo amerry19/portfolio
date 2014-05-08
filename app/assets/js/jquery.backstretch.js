@@ -2,7 +2,7 @@
 * http://srobbin.com/jquery-plugins/backstretch/
 * Copyright (c) 2012 Scott Robbin; Licensed MIT */
 
-;(function ($, window, undefined) {
+(function ($, window, undefined) {
   'use strict';
 
   /* PLUGIN DEFINITION
