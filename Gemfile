@@ -2,10 +2,10 @@ source 'https://rubygems.org'
 
 
 # Load current ruby version
-ruby '2.0.0'
+ruby '2.1.1'
 
-# Use rails_12factor to enable all heroku platform features
-gem 'rails_12factor'
+# Use rails_12factor to enable all heroku platform features and serve static pipeline assets 
+gem 'rails_12factor', group: :production
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.0'
