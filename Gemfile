@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 
 # Load current ruby version
-ruby '2.0.0'
+ruby '2.1.1'
 
 # Use rails_12factor to enable all heroku platform features
 gem 'rails_12factor'
