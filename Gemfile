@@ -10,19 +10,22 @@ gem 'rails_12factor'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.0'
 # Use postgre, thin, and sqlite3 as the database for Active Record
-gem 'pg'
+group :production do
+	gem 'pg'
+end
+
 gem 'thin'
 #gem 'sqlite3'
 
 group :assets do
-# Use SCSS for stylesheets
-gem 'sass-rails', '~> 4.0.3'
-# Use Uglifier as compressor for JavaScript assets
-gem 'uglifier', '>= 1.3.0'
-# Use CoffeeScript for .js.coffee assets and views
-gem 'coffee-rails', '~> 4.0.0'
-# See https://github.com/sstephenson/execjs#readme for more supported runtimes
-# gem 'therubyracer',  platforms: :ruby
+	# Use SCSS for stylesheets
+	gem 'sass-rails', '~> 4.0.3'
+	# Use Uglifier as compressor for JavaScript assets
+	gem 'uglifier', '>= 1.3.0'
+	# Use CoffeeScript for .js.coffee assets and views
+	gem 'coffee-rails', '~> 4.0.0'
+	# See https://github.com/sstephenson/execjs#readme for more supported runtimes
+	# gem 'therubyracer',  platforms: :ruby
 end
 
 # Use jquery as the JavaScript library
