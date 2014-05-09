@@ -10,7 +10,7 @@
 
 /*jshint browser: true, curly: true, eqeqeq: true, forin: false, immed: false, newcap: true, noempty: true, strict: true, undef: true */
 /*global jQuery: false */
-
+;
 (function( window, $, undefined ){
 
   'use strict';
