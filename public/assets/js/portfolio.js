@@ -114,8 +114,10 @@ $(document).ready(function() {
 	/*============================================
 	Project Preview
 	==============================================*/
-	$('.project-item').click(function(e){
+	/*$('.project-item').click(function(e){
 		e.preventDefault();
+
+
 
 		var elem = $(this),
 			title = elem.find('.project-title').text(),
@@ -141,7 +143,7 @@ $(document).ready(function() {
 			setTimeout(function(){
 				$('.image-wrapper.flexslider').flexslider({
 					slideshowSpeed: 3000,
-					animation: 'slide',
+					animation: 'fade',
 					controlNav: false,
 					start: function(){
 						$('#project-modal .image-wrapper')
@@ -149,7 +151,7 @@ $(document).ready(function() {
 						.prev('.loader').fadeOut();
 					}
 				});
-			},1000);
+			},400);
 		}).modal();
 		
 	});
@@ -161,7 +163,7 @@ $(document).ready(function() {
 			.removeClass('done')
 			.html('')
 			.flexslider('destroy');
-	});
+	});*/
 	
 	/*============================================
 	Twitter Functions
@@ -192,11 +194,11 @@ $(document).ready(function() {
 		$('#twitter-slider').flexslider({
 			prevText: '<i class="icon-angle-left"></i>',
 			nextText: '<i class="icon-angle-right"></i>',
-			slideshowSpeed: 5000,
+			slideshowSpeed: 4000,
 			useCSS: true,
 			controlNav: false, 
 			pauseOnAction: false, 
-			pauseOnHover: true,
+			pauseOnHover: false,
 			smoothHeight: false
 		});
 	}

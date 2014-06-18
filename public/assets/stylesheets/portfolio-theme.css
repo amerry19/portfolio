@@ -42,7 +42,7 @@ h4,
 h5,
 h6{
 	font-family: Lato, sans-serif;
-	color:#a2ce7e;
+	color:#787878;
 }
 
 h1 {
@@ -55,17 +55,17 @@ h1 {
 
 h1.section-title{
     position:relative;
-    margin:0 0 124px;
+    margin:0 0 62px;
     font-size:48px;
     line-height:64px;
     font-weight:300;
     text-align:center;
-    color:#a2ce7e;
+    color:#787878;
     z-index:1;
 }
 
 .section-title span {
-    font-size:150%;
+    font-size:130%;
     font-weight:400;
 }
 
@@ -98,17 +98,17 @@ a,
 a:hover,
 a:focus {
     outline:none !important;
-    text-decoration:none;
+    text-decoration: none !important;
 }
 
 a {
-  color: #5b744b;
+  color: #F28D2E;
   text-decoration: none;
 }
 
 a:hover,
 a:focus {
-  color: #6b845b;
+  color: #FAAC3E;
   text-decoration: none;
 }
 
@@ -136,7 +136,7 @@ body {
 
 .btn-theme{
 	color:#fff;
-	background-color:#a2ce7e;
+	background-color:#787878;
 	padding:15px 90px;
 	font-size:24px;
 	font-weight:300;
@@ -177,7 +177,7 @@ body {
 .btn-theme.transparent:hover,
 .btn-theme.transparent:focus,
 .btn-theme.transparent:active{
-	color:#a2ce7e;
+	color:#787878;
 	background-color:#fff;
 	border:2px solid #fff;
 	opacity:1;
@@ -204,7 +204,7 @@ body {
 }
 
 #main-nav.scrolled .navbar-brand{
-    color:#a2ce7e;
+    color:#787878;
 }
 
 #main-nav{
@@ -221,12 +221,12 @@ body {
 }
 
 #main-nav.scrolled .navbar-toggle{
-    color:#a2ce7e;
-    border-color:#a2ce7e;
+    color:#787878;
+    border-color:#787878;
 }
 
 #main-nav.scrolled .navbar-toggle .icon-bar{
-    background:#a2ce7e;
+    background:#787878;
 }
 
 #main-nav .container{
@@ -254,7 +254,7 @@ body {
 #main-nav.scrolled .nav a,
 #main-nav.scrolled .nav a:active,
 #main-nav.scrolled .nav a:hover{
-    color:#a2ce7e;
+    color:#787878;
 }
 
 
@@ -299,8 +299,8 @@ body {
 
 #main-nav.scrolled .nav a:hover:before,
 #main-nav.scrolled .nav li.active a:before {
-	color: #a2ce7e;
-	text-shadow: 12px 0 #a2ce7e, -12px 0 #a2ce7e;
+	color: #787878;
+	text-shadow: 12px 0 #787878, -12px 0 #787878;
 }
 
 .no-textshadow #main-nav .nav a:before {
@@ -317,7 +317,7 @@ body {
 
 .jumbotron {
     background:transparent;
-    color:#a2ce7e;
+    color:#787878;
 }
 
 header.jumbotron{
@@ -405,7 +405,7 @@ header.jumbotron{
 
 #services .row.line {
     height:6px;
-    background:#a2ce7e;
+    background:#787878;
     margin-bottom:24px;
 }
 
@@ -414,7 +414,7 @@ header.jumbotron{
     display:block;
     width:20px;
     height:20px;
-    background:#a2ce7e;
+    background:#787878;
     border:5px solid #fff;
     border-radius:50%;
 }
@@ -431,7 +431,7 @@ header.jumbotron{
     line-height:130px;
     color:#ccc;
     background:none;
-    border:10px solid #a2ce7e;
+    border:10px solid #787878;
     border-radius:50%;
     z-index:1;
     -webkit-transition:color 0.2s ease-in;
@@ -448,9 +448,9 @@ header.jumbotron{
     position:absolute;
     width:100%;
     height:100%;
-    background:#a2ce7e;
+    background:#787878;
     border-radius:50%;
-    border:2px solid #a2ce7e;
+    border:2px solid #787878;
 	-webkit-box-sizing: content-box; 
 	-moz-box-sizing: content-box; 
 	box-sizing: content-box;
@@ -506,7 +506,7 @@ header.jumbotron{
 ------------------------*/
 
 #about {
-    background:#a2ce7e;
+    background:#787878;
     color:#fff;
     padding:80px 0;
 }
@@ -546,8 +546,8 @@ header.jumbotron{
 ------------------------*/
 
 #skills {
-    padding-top:80px;
-    color:#6b845b;
+    padding-top:70px;
+    color:#787878;
 	background:#fff;
 }
 
@@ -575,8 +575,8 @@ header.jumbotron{
 .percent {
   display: inline-block;
   line-height: 170px;
-	font-size:50px;
-	font-weight:300;
+  font-size:50px;
+  font-weight:300;
   z-index: 2;
 }
 .percent:after {
@@ -587,7 +587,7 @@ header.jumbotron{
 
 #skills .skills h2 {
     margin:0 0 80px;
-    color:#6b845b;
+    color:#787878;
     font-size:24px;
     font-weight:300;
 }
@@ -660,7 +660,7 @@ header.jumbotron{
 
 #filter-works ul li:hover a,
 #filter-works ul li.active a{
-    color:#a2ce7e;
+    color:#F28D2E;
 }
 
 .masonry-wrapper{
@@ -672,6 +672,10 @@ header.jumbotron{
 #projects-container {
     margin:0 auto;
     visibility:hidden;
+}
+#projects-container img{
+    width: 350px;
+    height: 230px;
 }
 
 #projects-container .project-item{
@@ -720,7 +724,7 @@ header.jumbotron{
     height:100%;
     top:0;
     left:0;
-    background:#a2ce7e;
+    background:#787878;
     opacity:0;
 	filter:alpha(opacity=0);
     -webkit-transition:all 0.3s ease-out;
@@ -873,7 +877,7 @@ header.jumbotron{
 .modal-header{
     height:60px;
     border:none;
-    border-bottom:1px solid #a2ce7e;
+    border-bottom:1px solid #787878;
     margin-bottom:10px;
 }
 
@@ -886,7 +890,7 @@ header.jumbotron{
 }
 
 .modal-header .close:hover{
-    color:#a2ce7e;
+    color:#787878;
     opacity:1;
 }
 
@@ -914,7 +918,7 @@ header.jumbotron{
 }
 
 .modal-body h1{
-    color:#a2ce7e;
+    color:#787878;
     margin:200px 0 24px;
     font-size:32px;
 }
@@ -962,7 +966,7 @@ header.jumbotron{
 
 #twitter {
     color:#fff;
-    background:#a2ce7e;
+    background:#787878;
     padding:60px 0;
 }
 
@@ -1077,7 +1081,7 @@ header.jumbotron{
 }
 
 #contact .section-title [class*=icon]{
-    color:#a2ce7e;
+    color:#787878;
 	-webkit-transform: rotate(-15deg);
 	-moz-transform: rotate(-15deg);
 	-ms-transform: rotate(-15deg);
@@ -1125,10 +1129,31 @@ header.jumbotron{
 
 #contact .socials li a:hover{
     padding:0;
-    color:#a2ce7e;
+    color:#787878;
     text-decoration:none;
 }
 
+#contact-icon-mail:hover {
+    color: #d14836 !important;
+}
+
+#contact-icon-facebook:hover {
+    color: #3b5998 !important;
+}
+
+#contact-icon-twitter:hover {
+    color: #1dcaff !important;
+}
+
+#contact-icon-github:hover {
+    color: #7A4D16 !important;
+}
+#contact-icon-linkedin:hover {
+    color: #069 !important;
+}
+#contact-icon-google:hover {
+    color: #C63D2D !important;
+}
 
 #contact-form .form-group label{
     display:none;
@@ -1154,7 +1179,7 @@ header.jumbotron{
     font-size:30px;
     line-height:48px;
     font-weight:300;
-    color:#a2ce7e;
+    color:#787878;
     padding-left:64px;
 }
 
@@ -1168,7 +1193,7 @@ header.jumbotron{
     position:absolute;
     top:0;
     left:5px;
-    color:#a2ce7e;
+    color:#787878;
     font-size:32px;
     line-height:68px;
     text-align:center;
@@ -1196,22 +1221,22 @@ header.jumbotron{
 }
 
 #contact-form .form-control::-webkit-input-placeholder { /* WebKit browsers */
-    color:    #a2ce7e;
+    color:    #787878;
 }
 #contact-form .form-control:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
-    color:    #a2ce7e;
+    color:    #787878;
     opacity:1;
 }
 #contact-form .form-control::-moz-placeholder { /* Mozilla Firefox 19+ */
-    color:    #a2ce7e;
+    color:    #787878;
     opacity:1;
 }
 #contact-form .form-control:-ms-input-placeholder { /* Internet Explorer 10+ */
-    color:    #a2ce7e;
+    color:    #787878;
 }
 
 #contact-form .error-message {
-    background:#a2ce7e;
+    background:#787878;
     padding:10px 20px;
     position:absolute;
     top:-10px;
@@ -1225,7 +1250,7 @@ header.jumbotron{
 ------------------------*/
 #main-footer {
     background:#fff;
-    color:#a2ce7e;
+    color:#787878;
     padding:30px 0;
 }
 
@@ -1236,7 +1261,7 @@ header.jumbotron{
     font-size:24px;
     line-height:24px;
     font-weight:normal;
-    color:#a2ce7e;
+    color:#787878;
 }
 
 #main-footer .small-logo span {
@@ -1259,7 +1284,7 @@ header.jumbotron{
     display:inline-block;
     padding:0 15px;
     line-height:24px;
-    border-right:1px solid #a2ce7e;
+    border-right:1px solid #787878;
 }
 
 #main-footer ul.footer-nav li:first-child{
@@ -1271,7 +1296,7 @@ header.jumbotron{
 }
 
 #main-footer ul.footer-nav li a{
-    color:#a2ce7e;
+    color:#787878;
     text-decoration:none;
     font-size:14px;
     line-height:24px;
@@ -1285,12 +1310,12 @@ header.jumbotron{
 
 #main-footer ul.footer-nav li a:hover,
 #main-footer ul.footer-nav li a:active{
-    color:#b4d695;
+    color:#F28D2E;
     text-decoration:none;
 }
 
 #main-footer p{
-    color:#a2ce7e;
+    color:#787878;
     font-size:14px;
     line-height:24px;
     font-weight:400;
@@ -1488,7 +1513,7 @@ header.jumbotron{
 @media (max-width: 768px) {
 
 #main-nav .navbar-brand{
-    color:#a2ce7e;
+    color:#787878;
 }
 
 #main-nav{
@@ -1497,12 +1522,12 @@ header.jumbotron{
 }
 
 #main-nav .navbar-toggle{
-    color:#a2ce7e;
-    border-color:#a2ce7e;
+    color:#787878;
+    border-color:#787878;
 }
 
 #main-nav .navbar-toggle .icon-bar{
-    background:#a2ce7e;
+    background:#787878;
 }
 
 #main-nav .container{
@@ -1512,7 +1537,7 @@ header.jumbotron{
 #main-nav .nav a,
 #main-nav .nav a:active,
 #main-nav .nav a:hover{
-    color:#a2ce7e;
+    color:#787878;
     line-height:42px;
     text-align:center;
 }
