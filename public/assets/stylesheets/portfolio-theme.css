@@ -392,6 +392,7 @@ header.jumbotron{
 .jumbotron .home-slider .slides li.flex-active-slide,
 .jumbotron .home-slider .slides li.clone {
     opacity:1;
+    -webkit-transform: translateZ(0);
 }
 /*------------------------
 -----Services Styles------
@@ -1366,6 +1367,7 @@ header.jumbotron{
 
 .scrollimation.scale-in.in{
 	opacity:1;
+    -webkit-transform: translateZ(0);
 	-webkit-transform: scale(1);
 	-moz-transform: scale(1);
 	-ms-transform: scale(1);
